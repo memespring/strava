@@ -183,6 +183,11 @@ class RideDetail(StravaObject):
         return self._attr["description"]
 
     @property
+    def start_date(self):
+        return self._attr["startDate"]
+
+
+    @property
     def commute(self):
         return self._attr["commute"]
 
